@@ -9,16 +9,17 @@
 @import 'complements/_header.scss';
 @import 'complements/_hero.scss';
 @import 'complements/_section-tips.scss';
+@import 'complements/_aside.scss';
 
 * {
   margin:0;
 }
 
-
-.aside__reasons {
-  background-color:greenyellow;
-
+.container {
+  margin:0 15px;
 }
+
+
 
 
 
