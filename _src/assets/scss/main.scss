@@ -8,25 +8,22 @@
 // }
 @import 'complements/_header.scss';
 @import 'complements/_hero.scss';
+@import 'complements/_section-tips.scss';
 
 * {
   margin:0;
 }
 
 
-
-
-.section__tips {
-background-color:blue;
-font-family: 'Roboto', sans-serif;
-color:red;
-
+.aside__reasons {
+  background-color:greenyellow;
 
 }
 
 
 
+
 .footer {
   background-color:yellow;
-height: 20px;
+  height: 200px;
 }
