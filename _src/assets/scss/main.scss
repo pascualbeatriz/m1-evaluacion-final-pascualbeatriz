@@ -23,7 +23,6 @@
   font-family: 'Roboto', sans-serif;
   font-size:16px;
   line-height:1.8;
-  text-transform: uppercase;
   text-align:center;
   color:white;
   padding:0 0 45px;
@@ -56,22 +55,28 @@ padding-top:5px;
   padding:0;
   list-style: none;
   margin:60px;
+  text-transform: uppercase;
 }
 
 // mirar esto
 .footer__nav-elements-links {
   text-decoration:none;
   color:white;
+  font-weight: 300;
 }
 
 .footer__copyright,
 .footer__end {
   font-size:14px;
+  font-weight: 300;
 }
 
 .footer__end  {
-  padding:10px 0;
   margin-bottom:45px;
+}
+
+.footer__end-heart{
+  color:#f26002;
 }
 
 
