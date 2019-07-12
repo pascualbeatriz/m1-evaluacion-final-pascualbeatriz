@@ -16,7 +16,18 @@
 }
 .container {
   margin:0 15px;
+
+    @media all and (min-width:768px) {
+        margin: 0 39px;
+    }
+    @media all and (min-width:1280px) {
+        margin: 0 auto;
+        max-width: 1110px;
+    }
 }
+
+
+
 
 .footer {
   background-color:#304268;
@@ -81,9 +92,6 @@ padding-top:5px;
 
 
 @media all and (min-width:768px) {
-  .container {
-    margin:0 39px;
-  }
 
   .footer__links_container{
     display:flex;
