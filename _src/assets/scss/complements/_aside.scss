@@ -40,6 +40,14 @@
   margin:45px 0 60px;
 }
 
+.aside__reasons-button{
+  background-color:#f26002;
+  transition: background-color ease 0.2s;
+  &:hover {
+    background-color: #8ccbea;
+  }
+}
+
 @media all and (min-width:768px){
 
   .aside__reasons_section_grid_container {
