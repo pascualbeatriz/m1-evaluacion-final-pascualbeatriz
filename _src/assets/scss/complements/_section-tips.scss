@@ -49,3 +49,39 @@
   color:#f26002;
 }
 
+// tablet
+
+@media all and (min-width:768px){
+  .section_tips-text-main-title {
+    font-size:24px;
+  }
+
+  .section__main-text-paragraph {
+    font-size:20px;
+    line-height:1.5;
+  }
+
+  .section__tips-link_container {
+    width:91px;
+  }
+
+}
+
+// desktop
+
+@media all and (min-width:1200px){
+  .section__tips-text-small {
+    font-size:16px;
+    line-height:1.7;
+  }
+
+  .section_tips-text-main-title {
+    font-size:32px;
+    margin:8px 0;
+  }
+  .section__tips-link_container {
+    width:160px;
+  }
+
+}
+

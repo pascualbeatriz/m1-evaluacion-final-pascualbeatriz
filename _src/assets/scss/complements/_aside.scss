@@ -24,6 +24,7 @@
 
 .aside__reasons-article-title {
   font-family: 'Roboto Slab', serif;
+  font-size:18px;
   padding:5px;
 }
 
@@ -46,7 +47,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     grid-gap:5px 50px;
-    margin:10px 0;
+    margin:3px 0;
   }
 
   .aside__reasons .reason1 {
@@ -68,9 +69,25 @@
     margin-top:45px;
   }
 
-  // grid-column: 1 / 4;
-  // grid-row: 1 / 4;
+  .aside__reasons-main_title {
+    font-size:26px;
+  }
 
+  .aside__reasons-article-title {
+    font-size:24px;
+  }
 
+  .aside__reasons-article-content {
+    font-size:20px;
+  }
+
+  .aside__reasons-button{
+    width:210px;
+  }
 }
 
+@media all and (min-width:1200px){
+  .aside__reasons-button{
+    width:255px;
+  }
+}
