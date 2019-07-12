@@ -14,17 +14,78 @@
 * {
   margin:0;
 }
-
 .container {
   margin:0 15px;
 }
 
-
-
-
-
-
 .footer {
-  background-color:yellow;
-  height: 200px;
+  background-color:#304268;
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  line-height:1.8;
+  text-transform: uppercase;
+  text-align:center;
+  color:white;
+  padding:0 0 45px;
 }
+
+.footer__anchor{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.footer__anchor_container {
+  width:45px;
+  height:45px;
+  border-radius: 50%;
+  background-color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transform: translateY(-50%);
+}
+
+.footer__anchor_link-img{
+padding-top:5px;
+}
+
+.footer__nav-container,
+.footer__social_networks {
+  margin:0;
+  padding:0;
+  list-style: none;
+  margin:60px;
+}
+
+// mirar esto
+.footer__nav-elements-links {
+  text-decoration:none;
+  color:white;
+}
+
+.footer__copyright,
+.footer__end {
+  font-size:14px;
+}
+
+.footer__end  {
+  padding:10px 0;
+  margin-bottom:45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
