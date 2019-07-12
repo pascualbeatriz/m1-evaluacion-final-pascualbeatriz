@@ -1,0 +1,109 @@
+
+
+.footer {
+  background-color:#304268;
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  line-height:1.8;
+  text-align:center;
+  color:white;
+  padding:0 0 45px;
+}
+
+.footer__anchor{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.footer__anchor_container {
+  width:45px;
+  height:45px;
+  border-radius: 50%;
+  background-color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transform: translateY(-50%);
+
+  animation-name: rotation;
+  animation-duration:2s;
+  animation-delay: 0.5s;
+  animation-iteration-count:initial;
+}
+
+.footer__anchor_link-img{
+padding-top:5px;
+}
+
+.footer__nav-container,
+.footer__social_networks {
+  margin:0;
+  padding:0;
+  list-style: none;
+  margin:45px 0;
+  text-transform: uppercase;
+
+}
+
+// mirar esto
+.footer__nav-elements-links {
+  text-decoration:none;
+  color:white;
+  font-weight: 300;
+}
+
+.footer__container-text {
+  font-size:14px;
+  font-weight: 300;
+}
+
+.footer__end  {
+  margin-bottom:45px;
+}
+
+.footer__end-heart{
+  color:#f26002;
+}
+
+
+@media all and (min-width:768px) {
+
+  .footer__links_container{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    text-align:left;
+  }
+
+  .footer__nav-container,
+  .footer__social_networks,
+  .footer__container-text {
+    width:210px;
+    margin:0;
+  }
+
+  .footer__social_networks{
+    order:3
+  }
+
+  .footer__nav {
+    order:2;
+  }
+
+}
+
+@media all and (min-width:1200px) {
+
+.footer__links_container{
+  width:50vw;
+  transform:translateX(40%);
+}
+
+  .footer__nav-container,
+  .footer__social_networks,
+  .footer__container-text {
+    width:159px;
+    margin-right:0;
+  }
+}
