@@ -1,4 +1,4 @@
-// @import 'core/settings';
+@import 'core/_variable.scss';
 // @import 'core/links';
 
 // body {
@@ -39,6 +39,28 @@
   }
 }
 
+
+// mobile
+.newsection{
+background-color:$color-newsection;
+text-align:center;
+color:$color-newsection-text;
+}
+
+.newsection__link-github {
+  color:$color-newsection-text;
+}
+
+// tablet
+
+@media all and (min-width:768px) {
+  .newsection {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 20px 0;
+  }
+}
 
 
 
