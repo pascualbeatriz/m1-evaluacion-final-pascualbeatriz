@@ -8,9 +8,11 @@
 // }
 @import 'complements/_header.scss';
 @import 'complements/_hero.scss';
+@import 'complements/_new-section.scss';
 @import 'complements/_section-tips.scss';
 @import 'complements/_aside.scss';
 @import 'complements/_footer.scss';
+
 
 * {
   margin:0;
@@ -40,27 +42,6 @@
 }
 
 
-// mobile
-.newsection{
-background-color:$color-newsection;
-text-align:center;
-color:$color-newsection-text;
-}
-
-.newsection__link-github {
-  color:$color-newsection-text;
-}
-
-// tablet
-
-@media all and (min-width:768px) {
-  .newsection {
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:0 20px 0;
-  }
-}
 
 
 
